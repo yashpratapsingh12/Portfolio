@@ -37,9 +37,9 @@ const Skills = () => {
   return (
     <div className="max-w-[650px] mx-auto flex flex-col justify-center px-4 text-gray-200 pb-8 md:py-12" id="skills">
         <Reveal>
-        <h2 className="text-3xl font-bold mb-4 text-center">Skills</h2>
+        <h1 className="text-3xl font-bold mb-4 text-center"><span>Skills</span></h1>
         <p className="text-center mb-8">
-            I worked on various frontend  projects using frameworks such as <span>React</span>
+            I worked on various frontend  projects using frameworks such RactJS
         </p>
 
         <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8
