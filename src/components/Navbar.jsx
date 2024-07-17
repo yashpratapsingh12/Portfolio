@@ -36,14 +36,6 @@ const Navbar = () => {
         <div className='max-w-[1300px] mx-auto  flex justify-between text-gray-200
         text-xl items-center px-12 h-20'>
 
-            {/* <a href="#">Yash</a> */}
-
-            {/* <ul className='hidden md:flex gap-12 z-10 cursor-pointer'>
-                <li><Link to="skills" smooth={true} offset={50} duration={500}>About</Link></li>
-                <li><Link to="portfolio" smooth={true} offset={50} duration={500}>Projects</Link></li>
-                <li><Link to="contact" smooth={true} offset={50} duration={500}>Contact</Link></li>
-            </ul> */}
-
             <div onClick={toggleNav} className='md:hidden z-50 text-gray-200'>
                 {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
             </div>
