@@ -6,12 +6,13 @@ const experiences = [
     {
         company: 'Exhime',
         period: '2024',
-        description: " -Created  beautiful Landing page UI using Tailwincss and React ⁠Implemented Shopping Cart feature using Redux toolkit and React  and created Feedback , Contact us form using React Hook Form ",
+        description: " -Created  beautiful Landing page UI using Tailwind CSS and React and ⁠Implemented Shopping Cart feature using Redux toolkit and Rest APIs  ,Feedback and Contact us form using React Hook Form ",
+        
       },
       {
         company: 'Kroto',
         period: '2024',
-        description: '- Implemented New User onboarding flow with collecting use-case and personal data from users, using Next.js, TailwindCSS, React Hook Form and Zod -⁠Created Time slot booking interface for 1:1 Calls feature, using dayjs, React Hook Form and Next.js -⁠Created Learner’s Feedback forms for Courses, eBooks and 1:1 Calls using React Hook Form, TailwindCSS , Next.js and zod',
+        description: '- Implemented New User onboarding flow with collecting use-case and personal data from users,  Time slot booking interface for 1:1 call and Learners Feedback forms for courses using using ReactJS, Tailwind CSS, React Hook Form ,Zod',
       },
    
 ]

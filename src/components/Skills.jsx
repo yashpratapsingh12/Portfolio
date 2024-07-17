@@ -11,19 +11,23 @@ import {
   DiGithubBadge,
 } from "react-icons/di"
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
+
 import { SiMui } from "react-icons/si";
 import Reveal from "./Reveal"
 
 const skills = [
     {
-      category: 'Frontend',
+    
       technologies: [
         { name: 'HTML', icon: <DiHtml5 className='text-orange-600' /> },
         { name: 'CSS', icon: <DiCss3 className='text-blue-600' /> },
         { name: 'Tailwind', icon: <RiTailwindCssFill className='text-pink-600' /> },
         { name: 'Material ui', icon: <SiMui className='text-purple-600' /> },
         { name: 'JavaScript', icon: <DiJavascript1 className='text-yellow-500' /> },
+        { name: 'Typescript', icon: <SiTypescript className='text-blue-500' /> },
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
+
       ],
     },
 ,

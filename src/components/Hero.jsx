@@ -1,5 +1,6 @@
 import React from "react";
-import profilepic from "../assets/profpic.png";
+import profilepic from "../assets/pro.jpeg";
+import pdf from "../assets/Yashpratapsingh.pdf"
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -36,9 +37,9 @@ const Hero = () => {
             >
                 <TypeAnimation
                     sequence={[
-                        "Front-end developer",
+                        "Software Engineer",
                         1000,
-                        "Expertise in Data structures and Algorithmn",
+                        "Expertise in DSA",
                         1000,
                    
                     ]}
@@ -75,12 +76,14 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1.5 }}
                 className="flex flex-row items-center gap-6 my-4 md:mb-0"
                 >
-                    <motion.button whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
+                    <motion.a whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
                         className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
-                                     border-purple-400 rounded-xl"     
+                                     border-purple-400 rounded-xl"    
+                                
+                                     href="https://drive.google.com/file/d/1hf-oo16A0U3iEMH6uc1Cr8pXOSDlJEgI/view?usp=sharing" target="_blank" rel="noreferrer"
                     >
-                        Download CV
-                    </motion.button>
+                     Resume
+                    </motion.a>
 
                     <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
                         <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/yashpratapsingh12" target="_blank" rel="noreferrer">
@@ -105,32 +108,33 @@ const Hero = () => {
 
             <motion.img 
                 src={profilepic}
-                className="w-[300px] md:w-[450px]"
+                className=" w-[300px] md:w-[450px]  h-50 mx-auto object-cover rounded-full "
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 1 }}
+                
             />
         </div>
 
-        <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 1, delay: 2 }}
-            className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
+        <div
+            // initial={{ opacity: 0 }}
+            // whileInView={{ opacity: 1 }}
+            // viewport={{ once: true }}
+            // transition={{ duration: 1, delay: 2 }}
+            className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-2"
         >
-            <p className="text-gray-200 mr-6">My Tech Stack</p>
+            </div>
+            {/* <p className="text-gray-200 mr-6">My Tech Stack</p>
             <DiHtml5 className="text-orange-600 mx-2" />
             <DiCss3 className="text-blue-600 mx-2" />
             <DiJavascript1 className="text-yellow-500 mx-2" />
             <DiReact className="text-blue-500 mx-2" />
             <RiTailwindCssFill className="text-green-500 mx-2" />
-            <SiMui className="text-green-500 mx-2" />
+            <SiMui className="text-green-500 mx-2" /> */}
 
 
 
-        </motion.div>
 
         <div className="absolute inset-0 hidden md:block">
             <ShinyEffect left={0} top={0} size={1400} />
