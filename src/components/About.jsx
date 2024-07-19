@@ -13,8 +13,8 @@ const About = () => {
             <div>
                 <div className="text-gray-300 my-3">
                     <h3 className="text-4xl font-semibold mb-5  text-center">About <span>me</span></h3>
-                    <p className="text-justify leading-7 w-11/12 mx-auto">
-                I am final year undergraduate  BTech student  of Rajshree Institute of Management and Technology(AKTU) and  a keen and dedicated Software Developer with a robust expertise in  Data structures and algorithms , Web Developmenth. Throughout my early college days, I have engaged in various projects that have not only deepened my understanding but also enabled me to adapt swiftly to new technologies and methodologies. My journey so far has been marked by a continuous commitment to learning and a passion for innovation in the tech sphere.
+                    <p className="text-center">
+                I am final year undergraduate  BTech student  of Rajshree Institute of Management and Technology (AKTU) and  a keen and dedicated Software Developer with a robust expertise in  Data structures and algorithms , Web Developmenth. Throughout my early college days, I have engaged in various projects that have not only deepened my understanding but also enabled me to adapt swiftly to new technologies and methodologies. My journey so far has been marked by a continuous commitment to learning and a passion for innovation in the tech sphere.
                     </p>
 
                 </div>
