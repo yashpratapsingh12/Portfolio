@@ -2,7 +2,7 @@ import React from "react";
 import profilepic from "../assets/prof.jpg";
 import pdf from "../assets/Yashpratapsingh.pdf"
 import { TypeAnimation } from "react-type-animation";
-import ShinyEffect from "./ShinyEffect";
+
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMui } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si";
@@ -117,19 +117,7 @@ const Hero = () => {
             />
         </div>
 
-        <div className="flexflex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-2"
-             >   
-            </div>
-     
-                    
-           
-
-
-
-
-        <div className="absolute inset-0 hidden md:block">
-            <ShinyEffect left={0} top={0} size={1400} />
-        </div>
+    
         
     </div>
   )

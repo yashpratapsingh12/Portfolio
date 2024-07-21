@@ -26,8 +26,8 @@ const About = () => {
           </div>
 
         </div>
-        
-        </Reveal>
+       
+        </Reveal> 
     </div>
   )
 }
