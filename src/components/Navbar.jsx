@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { Link } from 'react-scroll'
@@ -36,6 +37,8 @@ const Navbar = () => {
         <div className='max-w-[1300px] mx-auto  flex justify-between text-gray-200
         text-xl items-center px-12 h-20'>
 
+
+
             <div onClick={toggleNav} className='md:hidden z-50 text-gray-200'>
                 {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
             </div>
@@ -44,12 +47,13 @@ const Navbar = () => {
             initial={false}
             animate={nav ? 'open' : 'closed'}
             variants={menuVariants}
-            className='fixed left-0 top-0 w-full min-h-screen bg-gray-900 z-50'
+            className='fixed left-0 top-0 w-full min-h-screen bg-gray-900 z-40'
             >
                 <ul className='font-semibold text-4xl space-y-8 mt-24 text-center'>
-                    <li><Link to="About" onClick={closeNav} smooth={true} offset={50} duration={500}>About</Link></li>
-                    <li><Link to="portfolio" onClick={closeNav} smooth={true} offset={50} duration={500}>Projects</Link></li>
-                    <li><Link to="experience" onClick={closeNav} smooth={true} offset={50} duration={500}>Experience</Link></li>
+                    <li><Link to="About" onClick={closeNav} smooth={true} offset={-400} duration={500}>About</Link></li>
+                    <li><Link to="portfolio" onClick={closeNav} smooth={true} offset={-50} duration={500}>Projects</Link></li>
+                    <li><Link to="experience" onClick={closeNav} smooth={true} offset={-50} duration={500}>Experience</Link></li>
+                
                 </ul>
 
 
