@@ -47,7 +47,7 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1 }}
                 className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
                 >
-            Passionate software engineer with expertise in problem solving and algorithmic thinking and always fanatic to explore new technologies
+             A keen software engineer with expertise in problem solving and algorithmic thinking and always fanatic to explore new technologies
 
                 </motion.p>
 
