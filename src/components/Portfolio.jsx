@@ -9,7 +9,7 @@ const projects = [
     {
       img: project1,
       title: "Glide",
-      description: "It is a Social media app where you can create delete and update your posts and see other users post and i have created this by using reactJs,tailwind , reactquery for fetching and validating and appwrite",
+      description: "Dynamic social media platform where users can effortlessly create, delete, and update their posts, as well as interact with posts from other user and  i have created this by using reactJs,tailwind ,reactquery and appwrite",
       links: {
         site: "https://glide-ecru.vercel.app/",
         github: "https://github.com/yashpratapsingh12/Glidee",
