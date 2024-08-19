@@ -39,7 +39,7 @@ const Skills = () => {
         <Reveal>
         <h1 className="text-3xl font-bold mb-4 text-center"><span>Skills</span></h1>
         <p className="text-center mb-8">
-            I worked on various frontend  projects using frameworks such RactJS
+            I have worked on various frontend  projects using frameworks such as ReactJS
         </p>
 
         <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8

@@ -6,7 +6,7 @@ const experiences = [
     {
         company: 'Exhime',
         period: '2024',
-        description: " -Created  beautiful Landing page UI using Tailwind CSS and React and ⁠Implemented Shopping Cart feature using Redux toolkit and Rest APIs  ,Feedback and Contact us form using React Hook Form ",
+        description: " -Created  beautiful Landing page UI using Tailwind CSS and React , ⁠Implemented Shopping Cart feature using Redux toolkit and Rest APIs  ,Feedback and Contact us form using React Hook Form ",
         
       },
       {

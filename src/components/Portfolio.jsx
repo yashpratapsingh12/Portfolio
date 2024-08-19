@@ -9,7 +9,7 @@ const projects = [
     {
       img: project1,
       title: "Glide",
-      description: "Dynamic social media platform where users can effortlessly create, delete, and update their posts, as well as interact with posts from other user and  i have created this by using reactJs,tailwind ,reactquery and appwrite",
+      description: "Dynamic social media platform where users can effortlessly create, delete, and update their posts, as well as interact with posts of other user and I have created this by using ReactJs,Tailwind CSS ,Reactquery and Appwrite.",
       links: {
         site: "https://glide-ecru.vercel.app/",
         github: "https://github.com/yashpratapsingh12/Glidee",
@@ -18,7 +18,7 @@ const projects = [
     {
       img: project2,
       title: "BuildHard",
-      description: "Fitness website where you can get most of the exercise details and correct manner to do the exercise by searching the name of the exercise or related muscle group with their youtube videos also",
+      description: "Fitness website where you can get most of the exercise details and correct manner to do the exercise by searching the name of the exercise or related muscle group with their youtube videos also.",
       links: {
         site: "https://buildhard.netlify.app/",
         github: "https://github.com/yashpratapsingh12/Build-hard",
