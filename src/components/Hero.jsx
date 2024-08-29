@@ -54,7 +54,7 @@ const Hero = () => {
                 <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true }}s
                 transition={{ duration: 1, delay: 1.5 }}
                 className="flex flex-row items-center gap-6 my-4 md:mb-0"
                 >
@@ -62,7 +62,7 @@ const Hero = () => {
                         className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-purple-400 rounded-xl"    
                                 
-                                     href="https://drive.google.com/file/d/1EYzmBtnCUGRtulh99Jvxt_HdP8ZUGK_8/view?usp=sharing" target="_blank" rel="noreferrer"
+                                     href="https://drive.google.com/file/d/1v6OToTD8nqZgrjbWYGSzTk5sr4PYFC-n/view?usp=sharing" target="_blank" rel="noreferrer"
                     >
                      Resume
                     </motion.a>
