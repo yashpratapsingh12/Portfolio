@@ -14,7 +14,7 @@ const About = () => {
                 <div className="text-gray-300 my-3">
                     <h3 className="text-4xl font-semibold mb-5  text-center">About <span>me</span></h3>
                     <p className="text-center">
-                I am final year undergraduate  B.Tech student  of Rajshree Institute of Management and Technology (AKTU) and  a keen  dedicated Software Developer with a robust expertise in  Data structures and Algorithms , Web Development. Throughout my  college days, I was engaged in various projects that have not only deepened my understanding but also enabled me to adapt swiftly to new technologies and methodologies. My journey so far has been marked by a continuous commitment to learning and a passion for innovation in the tech sphere.
+                    I am an enthusiastic Software Developer with deep proficiency in Data Structures and Algorithms and a strong background in Web Development. And I have completed my B.Tech from Rajshree Institute of management and Technology. My involvement in various projects has further enhanced my ability to swiftly adapt emerging technologies and practices.
                     </p>
 
                 </div>

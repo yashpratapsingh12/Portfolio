@@ -62,7 +62,7 @@ const Hero = () => {
                         className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-purple-400 rounded-xl"    
                                 
-                                     href="https://drive.google.com/file/d/1v6OToTD8nqZgrjbWYGSzTk5sr4PYFC-n/view?usp=sharing" target="_blank" rel="noreferrer"
+                                     href="https://drive.google.com/file/d/1fSE-OMvhrgj2-9Krpylh6sdRw5Uacr9u/view?usp=sharing" target="_blank" rel="noreferrer"
                     >
                      Resume
                     </motion.a>
