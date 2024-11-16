@@ -58,14 +58,14 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1.5 }}
                 className="flex flex-row items-center gap-6 my-4 md:mb-0"
                 >
-                      <motion.a whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
+{/*                       <motion.a whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
                         className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-purple-400 rounded-xl"    
                                 
                                      href="https://drive.google.com/file/d/1fSE-OMvhrgj2-9Krpylh6sdRw5Uacr9u/view?usp=sharing" target="_blank" rel="noreferrer"
                     >
                      Resume
-                    </motion.a>
+                    </motion.a> */}
 
                 
                 </motion.div> 
